@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps:map xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:maps="maps"
+    xsi:schemaLocation="maps tpemf.ecore#//maps">
+  <roads xsi:type="maps:Street"
+      border="//@spaces.0"/>
+  <spaces xsi:type="maps:Garden"
+      borderedBy="//@roads.0"/>
+</maps:map>

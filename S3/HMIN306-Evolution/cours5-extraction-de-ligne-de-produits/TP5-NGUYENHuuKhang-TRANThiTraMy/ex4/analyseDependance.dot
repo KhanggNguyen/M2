@@ -1,0 +1,22 @@
+digraph G {
+
+  startPoint -> Line;
+  endPoint -> Line;
+  getEnd -> Line;
+  getStart -> Line;
+  paint -> Line;
+  setEnd -> Line;
+  
+  setEnd -> endPoint;
+  getEnd -> endPoint;
+  getStart -> startPoint;
+  paint -> startPoint;
+  paint -> endPoint;
+  
+  lineText;
+  
+  mouseDraggedLine -> newLine;
+  mouseReleasedLine -> newLine;
+  mousePressedLine -> newLine;
+  mousePressedLine -> lines;
+}

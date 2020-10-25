@@ -1,0 +1,33 @@
+Binôme : 
+TRAN THI TRA MY
+NGUYEN HUU KHANG
+
+2.1 
+
+Est-ce qu'il y a une différence entre votre analyse statique et votre analyse dynamique? Si, oui quelles sont ces différences ?
+
+Oui, il y a une différence entre les deux analyses.
+
+L'analyse statique de RestSuite nous permet de vérifier lien entre des classes. Cela veut dire que nous devons analyser et déviner le comportement si on devrait exécuter le programme. Pour analyser, nous avons construit un graphe de dépendances à partir du code source.
+
+L'analyse dynamique de RestSuite nous permet d'analyser le programme pendant l'exécution du programme. Dans notre contexte, nous avons grâce à l'analyse statique implémenté un log à tous les invocations dans une méthode. Pendant l'exécution du programme, nous pouvons constater les invocations des méthodes en déclenchant les fonctionnalités de l'application. Nous pouvons donc analyser le comportement du programme lors de l'exécution via les traces laissé dans les logs dans les méthodes que nous avons implémenté. Nous pouvons donc générer le graphe à partir du log pour visualiser les dépendances dans les méthodes. C'est la différence entre les deux types d'analyses. 
+
+Les graphes de dépendances entre deux types d'analyse sont aussi différences.
+
+2.2
+
+Si vous avez des différences, quelles sont les causes? Pourquoi avez vous un résultat différent?
+
+Les causes viennent du fait que nous avons utilisé les différentes dépendances pour créer le graphe. Dans l'analyse statique, nous avons utilisé les dépendances des types externes pour créer le graphe. Or, dans l'analyse dynamique, nous avons utilisé les invocations des méthodes pour créer le graphe. Il est possible que l'on n'a pas testé toutes les fonctionnalités proposés par l'application pour afficher tous les dépendances du graphe.
+
+2.3
+
+Comment pouvez-vous améliorer l’analyse dynamique pour augmenter la couverture du graphe de dépendances?
+
+Afin d'améliorer l'analyse dynamique, nous pourrions générer tout d'abord un graphe avec tous les dépendances existants dans l'application. Cela évitera le cas où le testeur rate le test sur un bouton. Elle permettra de augmenter la couverture du graphe de dépendances. 
+
+2.4
+
+Comment pouvez-vous améliorer l’analyse statique pour augmenter la couverture du graphe de dépendances?
+
+Afin d'améliorer l'analyse statique, nous pourrions ajouter les dépendances avec les classes hors du projet aussi car il existe les types IOException, String par exemple.

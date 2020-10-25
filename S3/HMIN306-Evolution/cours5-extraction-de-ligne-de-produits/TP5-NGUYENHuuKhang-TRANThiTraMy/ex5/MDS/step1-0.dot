@@ -1,0 +1,29 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:MatriceDeDependanceStructurelle,concept number:12,object number:12,attribute number:12"
+12 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_MatriceDeDependanceStructurelle_2</td></tr><tr><td>Canvas.mousePressedLine<br/>Canvas.lines<br/></td></tr><tr><td>Canvas.lines<br/>Canvas.mousePressedLine<br/></td></tr></table>>];
+14 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_MatriceDeDependanceStructurelle_1</td></tr><tr><td>Canvas.mouseDraggedLine<br/>Canvas.newLine<br/></td></tr><tr><td>Canvas.newLine<br/>Canvas.mouseDraggedLine<br/></td></tr></table>>];
+16 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_MatriceDeDependanceStructurelle_0</td></tr><tr><td>Canvas.mouseReleasedLine<br/>Canvas.newLine<br/></td></tr><tr><td>Canvas.newLine<br/>Canvas.mouseReleasedLine<br/></td></tr></table>>];
+15 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_MatriceDeDependanceStructurelle_6</td></tr><tr><td>Canvas.mousePressedLine<br/></td></tr><tr><td>Canvas.lines<br/>Canvas.newLine<br/>Canvas.mousePressedLine<br/></td></tr></table>>];
+20 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_MatriceDeDependanceStructurelle_4</td></tr><tr><td>Line<br/>Line.getEnd<br/>Line.endPoint<br/></td></tr><tr><td>Line<br/>Line.endPoint<br/>Line.getEnd<br/></td></tr></table>>];
+21 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_MatriceDeDependanceStructurelle_5</td></tr><tr><td>Line<br/>Line.getStart<br/>Line.startPoint<br/></td></tr><tr><td>Line<br/>Line.startPoint<br/>Line.getStart<br/></td></tr></table>>];
+13 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_MatriceDeDependanceStructurelle_9</td></tr><tr><td>Canvas.newLine<br/></td></tr><tr><td>Canvas.newLine<br/>Canvas.mouseDraggedLine<br/>Canvas.mousePressedLine<br/>Canvas.mouseReleasedLine<br/></td></tr></table>>];
+18 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_MatriceDeDependanceStructurelle_7</td></tr><tr><td>Line<br/>Line.startPoint<br/></td></tr><tr><td>Line<br/>Line.startPoint<br/>Line.getStart<br/>Line.paint<br/></td></tr></table>>];
+22 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_MatriceDeDependanceStructurelle_8</td></tr><tr><td>Line<br/>Line.paint<br/></td></tr><tr><td>Line<br/>Line.startPoint<br/>Line.endPoint<br/>Line.paint<br/></td></tr></table>>];
+19 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_MatriceDeDependanceStructurelle_10</td></tr><tr><td>Line<br/>Line.endPoint<br/></td></tr><tr><td>Line<br/>Line.endPoint<br/>Line.getEnd<br/>Line.paint<br/>Line.setEnd<br/></td></tr></table>>];
+17 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_MatriceDeDependanceStructurelle_11</td></tr><tr><td>Line<br/></td></tr><tr><td>Line<br/>Line.startPoint<br/>Line.endPoint<br/>Line.getEnd<br/>Line.getStart<br/>Line.paint<br/>Line.setEnd<br/></td></tr></table>>];
+23 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_MatriceDeDependanceStructurelle_3</td></tr><tr><td>Line.setEnd<br/>Line<br/>Line.endPoint<br/></td></tr><tr><td>Line<br/>Line.endPoint<br/>Line.setEnd<br/></td></tr></table>>];
+	12:p -> 15:p
+	14:p -> 13:p
+	16:p -> 13:p
+	21:p -> 18:p
+	20:p -> 19:p
+	23:p -> 19:p
+	18:p -> 17:p
+	19:p -> 17:p
+	22:p -> 17:p
+}

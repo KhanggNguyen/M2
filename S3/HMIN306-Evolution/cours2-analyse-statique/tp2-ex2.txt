@@ -1,0 +1,270 @@
+- Total de classes : 73
+
+- Total de lignes de code : 2923
+
+- Total de méthodes : 248
+
+- Total de packages : 40
+
+- Moyen de méthodes par classe : 6 
+
+- Moyen de lignes de code par méthode : 5
+
+- Moyen d'attributs par classe : 2
+
+- Les 10% des classes qui possèdent le plus grand nombre de méthodes :
+CollectionEntity : 22
+BodyFormInputPanel : 15
+BodyRawTypeModel : 10
+HeadersFormInputPanel : 9
+RequestTypeModel : 6
+BodyPanel : 6
+ResponseBodyPanel : 6
+
+- 10% des classes qui possèdent le plus grand nombre d'attributes.
+CollectionEntity : 11
+SocketIoPanel : 11
+BodyFormInputPanel : 7
+BodyPanel : 7
+ResponseBodyPanel : 7
+ServerSentEventPanel : 7
+WebsocketPanel : 5
+
+- Tous les classes appartiennent aux 2 tables.
+CollectionEntity
+BodyFormInputPanel
+BodyPanel
+ResponseBodyPanel
+
+- Les classes qui possèdent plus de X méthodes ( 10 par exemple )
+ClassName : CollectionEntity avec 22 méthodes
+ClassName : CollectionStructureFolderEntity avec 11 méthodes
+ClassName : BodyFormInputPanel avec 15 méthodes
+
+- Les 10% des méthodes qui possèdent le plus grand nombre de lignes de code (par classe)
+ClassName : Main
+main : 54
+
+ClassName : MenuBar
+getEnvironmentManageMenuItem : 3
+
+ClassName : RequestApiButton
+setResponseBodyPanel : 3
+
+ClassName : RequestBodyFormTypeComboBox
+toString : 6
+
+ClassName : RequestBodyRawTypeComboBox
+setType : 7
+
+ClassName : RequestBodyTypeComboBox
+setType : 7
+
+ClassName : RequestTypeComboBox
+toString : 6
+
+ClassName : ActionDialog
+addAction : 3
+
+ClassName : Dialog
+close : 3
+
+ClassName : Frame
+Pas de méthode.
+
+ClassName : ActionDialogCallback
+cancelAction : 1
+
+ClassName : InputComponent
+paintComponent : 11
+
+ClassName : InputSearchCollection
+Pas de méthode.
+
+ClassName : InputSocketIoListener
+Pas de méthode.
+
+ClassName : InputSocketIoMessage
+Pas de méthode.
+
+ClassName : InputSocketIoURL
+Pas de méthode.
+
+ClassName : InputSseURL
+Pas de méthode.
+
+ClassName : InputWebsocketMessage
+Pas de méthode.
+
+ClassName : InputWebsocketURL
+Pas de méthode.
+
+ClassName : InputBodyKey
+Pas de méthode.
+
+ClassName : InputBodyValue
+Pas de méthode.
+
+ClassName : InputTextURL
+getSubject : 3
+
+ClassName : CustomTitleBar
+Pas de méthode.
+
+ClassName : ParamsTable
+addRow : 9
+
+ClassName : BodyTextArea
+Pas de méthode.
+
+ClassName : CollectionBodyEntity
+getCollection : 3
+getId : 3
+
+ClassName : CollectionEntity
+getBody : 3
+getBodyRawType : 3
+getBodyRawValue : 3
+
+ClassName : CollectionHeaderEntity
+getCollection : 3
+
+ClassName : CollectionStructureEntity
+getCollectionEntity : 3
+
+ClassName : CollectionStructureFolderEntity
+RootFolder : 3
+getChild : 3
+
+ClassName : ProjectEntity
+getId : 3
+
+ClassName : DefaultIcon
+Pas de méthode.
+
+ClassName : FontLoader
+getCodeFont : 14
+
+ClassName : UrlParser
+getQueryParams : 41
+
+ClassName : DragListener
+mouseDragged : 7
+
+ClassName : InputTextUrlListener
+changedUpdate : 4
+
+ClassName : SocketIOListenerMouseTableRowMenu
+Pas de méthode.
+
+ClassName : SocketIOListenerTableRowMenuListener
+mousePressed : 5
+
+ClassName : WebsocketTestListener
+onFailure : 7
+
+ClassName : ApiModel
+getId : 3
+
+ClassName : ApiRequestModel
+getBodyPanel : 3
+
+ClassName : BodyFormTypeModel
+FIELD : 3
+
+ClassName : BodyRawTypeModel
+HTML : 3
+JAVASCRIPT : 3
+
+ClassName : BodyTypeModel
+FORM : 3
+
+ClassName : RequestModel
+getKey : 3
+
+ClassName : RequestTypeModel
+DELETE : 3
+
+ClassName : MainPanel
+Pas de méthode.
+
+ClassName : SplashScreen
+close : 9
+
+ClassName : RestPanel
+svgIcon : 11
+
+ClassName : RestCallback
+saved : 1
+
+ClassName : FolderItem
+RootFolder : 3
+
+ClassName : CollectionTreeRenderer
+getTreeCellRendererComponent : 15
+
+ClassName : FolderComboBoxRenderer
+getListCellRendererComponent : 7
+
+ClassName : TabPanel
+Pas de méthode.
+
+ClassName : BodyFormInputPanel
+checkType : 10
+remove : 6
+
+ClassName : BodyFormPanel
+addFormInput : 14
+
+ClassName : BodyPanel
+getBodyFormPanel : 3
+
+ClassName : HeadersFormInputPanel
+remove : 6
+
+ClassName : HeadersFormPanel
+clearFormInput : 13
+
+ClassName : HeadersPanel
+getHeadersFormPanel : 3
+
+ClassName : ParamsPanel
+Pas de méthode.
+
+ClassName : ResponseBodyPanel
+getBodyFormPanel : 3
+
+ClassName : ResponseTabPanel
+body : 3
+
+ClassName : SocketIoPanel
+reloadSocketListener : 13
+
+ClassName : ServerSentEventPanel
+setStatus : 8
+
+ClassName : WebsocketPanel
+Pas de méthode.
+
+ClassName : RequestBodyFormTypeRenderer
+getListCellRendererComponent : 7
+
+ClassName : RequestBodyRawTypeRenderer
+getListCellRendererComponent : 7
+
+ClassName : RequestBodyTypeRenderer
+getListCellRendererComponent : 7
+
+ClassName : RequestTypeRenderer
+getListCellRendererComponent : 7
+
+ClassName : Restsuite
+createWorkspaceDirectory : 10
+
+ClassName : HibernateUtil
+getSessionFactory : 20
+
+ClassName : Converter
+convertSVGToPNG : 11
+
+- Le nombre maximal de paramètres par rapport à toutes les méthodes de l’application : 7

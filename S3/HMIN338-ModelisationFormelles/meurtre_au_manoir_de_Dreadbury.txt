@@ -1,0 +1,30 @@
+%NGUYEN HUU KHANG
+%TRAN THI TRA MY
+
+fof(s1, axiom, ( ? [X] : (dreadbury(X) & kill(X, agatha) ) ) ).
+
+fof(s2_1, axiom, (dreadbury(agatha) ) ).
+
+fof(s2_2, axiom, (dreadbury(majordome) ) ).
+
+fof(s2_3, axiom, (dreadbury(charles) ) ).
+
+fof(s2, axiom, ( ! [X] : ( dreadbury(X) => ((X = agatha) | (X = majordome) | (X = charles) ) ) ) ).
+
+fof(s3, axiom, ( ! [X] : ( ! [Y] : (kill(X,Y) => hate(X,Y) ) ) ) ).
+
+fof(s4, axiom, ( ! [X] : ( ! [Y] : (kill(X,Y) => ~ (rich(X,Y) ) ) ) ) ).
+
+fof(s5, axiom, ( ! [X] : (hate(agatha,X) => ~ (hate(charles,X) ) ) ) ).
+
+fof(s6, axiom, ( ! [X] : ( (X != majordome) => hate(agatha,X) ) ) ).
+
+fof(s7, axiom, ( ! [X] : (~ (rich(X,agatha) ) => hate(majordome,X) ) ) ).
+
+fof(s8, axiom, ( ! [X] : (hate(agatha,X) => hate(majordome,X) ) ) ).
+
+fof(s9, axiom, ( ! [X] : ( ? [Y] : (~ (hate(X,Y) ) ) ) ) ).
+
+fof(s10, axiom, ( agatha != majordome ) ).
+
+fof(s11, conjecture, ( kill(agatha, agatha) ) ).

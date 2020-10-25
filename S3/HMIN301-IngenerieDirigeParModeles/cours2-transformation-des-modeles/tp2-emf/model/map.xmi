@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps:map xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:maps="maps"
+    xsi:schemaLocation="maps tpemf.ecore#//maps"
+    name="France">
+  <roads xsi:type="maps:Street"
+      name="A"
+      border="//@spaces.0 //@spaces.1"
+      meet="//@roads.3 //@roads.1"/>
+  <roads xsi:type="maps:Street"
+      name="B"
+      length="700"
+      meet="//@roads.0"/>
+  <roads xsi:type="maps:Pedestrian"
+      name="Pieton1500"
+      length="1500"/>
+  <roads xsi:type="maps:Street"
+      name="C"
+      length="2000"
+      border="//@spaces.1"
+      meet="//@roads.0"/>
+  <roads xsi:type="maps:Pedestrian"
+      name="Pieton700"
+      length="700"/>
+  <spaces xsi:type="maps:Garden"
+      name="GardenBorderedByStreetA"
+      borderedBy="//@roads.0"/>
+  <spaces xsi:type="maps:Square"
+      name="Dupuy"
+      borderedBy="//@roads.0 //@roads.3"/>
+</maps:map>

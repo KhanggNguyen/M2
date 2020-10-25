@@ -1,0 +1,44 @@
+Ex1 : 
+
+2.1)
+Le main est placé dans le dossier Test. Or, ce n'est pas une test unité.
+
+2.2) 
+Pour vérifier l'OS exécutant le programme.
+
+2.3) 
+Si l'OS exécutant le programme est MAC, on aura un controller null. 
+
+3) 
+Le programme n'exécute pas à cause d'une erreur  "java.lang.IndexOutOfBoundsException"
+
+Le dév a essayé d'initialiser un tableau "days" dans le constructeur du fichier Computer.java mais l'appel de la fonction list() sur l'objet File répertoire retourne null. Donc notre tableau days est vide car nous n'ajoutons jamais une date dans la liste. Or, la fonction getLastDay() du fichier a initialisé 1er élément du tableau d'où vient l'erreur index.
+
+Nous avons une problème de chemin du fichier.
+
+4) 
+Le dév veut collecter toutes les dates des dossier d'un chemin
+
+5)
+Si on a une erreur lié à OS, on devrait ajouter un boucle condition 
+if(OSvalidator.isMac()){
+    ...
+}
+
+On devrait initialiser le chemin dans le bon norme. 
+On devrait trouver une solution pour traiter tous les cas et pas que dans le cas Windows, Linux ou MAC seulement. Il peut arriver que le fichier soit stocké en Cloud.
+On ajoute par exemple une classe/interface qui gère problème du chemin de fichier.
+
+Ex2 :
+
+3)
+On pourrait  :
+- ajouter un pattern State au panneau 
+- ajouter un pattern décorateur au Bouton et Panneau. On devrait "refractor" les classes. On devrait implémenter un interface de bouton et panneau qui contiennent les comportements du bouton et du panneau.
+
+Par exemple, on a plusieurs type de panneaux décorateur. On peut donc switch entre les types de panneaux
+
+Panneau concrete (PanneauTempsReel?)
+
+Panneau décorateur (le reste des panneaux ?)
+

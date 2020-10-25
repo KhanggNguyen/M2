@@ -1,0 +1,7 @@
+prenez les CtTypeReference comme point de départ -> appel getDeclaration sur chaque élément de la liste des CtTypeReferencer
+
+ajouter dans Node.java 
+CtClass element
+List<CtClass>
+
+stocker les élément dans la liste des CtClass

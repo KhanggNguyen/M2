@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="MainPackage.ItemAction" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/ItemAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="223" x="136" y="-40"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="MainPackage.ButtonBasDroit" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/ButtonBasDroit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="224" x="715" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="MainPackage.Button" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/Button.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="206" x="1411" y="-40"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="MainPackage.ButtonSuppression" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/ButtonSuppression.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="676" x="799" y="2454"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="MainPackage.MenuClicDroitGraph" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/MenuClicDroitGraph.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="315" x="399" y="-40"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="MainPackage.PanneauSuppression" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/PanneauSuppression.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="250" width="342" x="1154" y="2164"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="MainPackage.PopUpDemo" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/PopUpDemo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="328" x="754" y="-40"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="MainPackage.ButtonHautDroit" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/ButtonHautDroit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="224" x="979" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="MainPackage.ButtonHautGauche" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/ButtonHautGauche.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="225" x="1243" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="MainPackage.ButtonAjout" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/ButtonAjout.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="304" width="971" x="136" y="1730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="11" language="java" name="MainPackage.EnumTypeComposant" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/EnumTypeComposant.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="484" width="249" x="1122" y="-40"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="12" language="java" name="MainPackage.OSvalidator" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/OSvalidator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="146" x="1728" y="-40"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="MainPackage.PanneauRecapitulatif" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/PanneauRecapitulatif.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="223" x="2497" y="1730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="MainPackage.Computer" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/Computer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="358" width="383" x="2539" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="MainPackage.Controller" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/Controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="358" x="2287" y="-40"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="MainPackage.Component" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/Component.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="229" x="2760" y="1730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="MainPackage.ButtonBasGauche" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/ButtonBasGauche.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="224" x="1508" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="MainPackage.Fenetre" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/Fenetre.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="304" width="360" x="2036" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="MainPackage.ClavierListener" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/ClavierListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="190" x="1985" y="-40"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="MainPackage.Panneau" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/Panneau.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="206" x="1645" y="882"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="MainPackage.PanneauListeComposants" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/PanneauListeComposants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="340" width="276" x="1517" y="2708"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="MainPackage.Day" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/Day.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="646" width="333" x="2539" y="882"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="MainPackage.ButtonMilieu" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/ButtonMilieu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="224" x="1772" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="MainPackage.PanneauTempsReel" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/PanneauTempsReel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="394" width="307" x="1168" y="1730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="MainPackage.PopClickListener" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/PopClickListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="353" x="1168" y="882"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="MainPackage.ClicDroitGraph" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/ClicDroitGraph.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="283" x="2111" y="1730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="MainPackage.Graphique" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/Graphique.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="808" width="358" x="2036" y="882"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="MainPackage.Conso" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/Conso.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="250" width="158" x="2278" y="2164"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="MainPackage.PanneauAjoutComposant" project="stage-LIRMM" 
+    file="/stage-LIRMM/src/MainPackage/PanneauAjoutComposant.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="322" width="493" x="1557" y="1730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="30">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="31" name="component"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="34" name="component"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="37">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="38" name="fenetre"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <bendpoint x="768" y="2164"/>    
+    <bendpoint x="768" y="2454"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="41" name="panCompo"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="44" name="clickDetector"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <bendpoint x="2080" y="1730"/>    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="47" name="data"/>      
+      <multiplicity id="48" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="49">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="50" name="clickDetector"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="53" name="days"/>      
+      <multiplicity id="54" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <bendpoint x="1572" y="882"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="56" name="PanneauConsoJournee"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="58">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="59" name="panSup"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <bendpoint x="1137" y="882"/>    
+    <bendpoint x="1137" y="1730"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="62" name="panneauSuppression"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="64">    
+    <bendpoint x="1505" y="1730"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <association id="65">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="66" name="computer"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="68">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="69">    
+    <bendpoint x="1614" y="882"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="70" name="PanneauConsoActuelle"/>      
+      <multiplicity id="71" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="72">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <generalization id="73">    
+    <bendpoint x="1526" y="2454"/>    
+    <bendpoint x="1526" y="2164"/>    
+    <bendpoint x="1526" y="1730"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <association id="74">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="75" name="supprimer"/>      
+      <multiplicity id="76" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="77">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="78">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <association id="79">    
+    <bendpoint x="1551" y="882"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="80" name="PanneauConsoMoyJournee"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <bendpoint x="2466" y="882"/>    
+    <bendpoint x="2466" y="1730"/>    
+    <bendpoint x="2466" y="2164"/>    
+    <bendpoint x="2466" y="2454"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="83" name="panneauListeComposants"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="86" name="monPanneau"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <bendpoint x="2487" y="882"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="89" name="caseTextGraph1"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="92" name="components"/>      
+      <multiplicity id="93" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <bendpoint x="1881" y="882"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="95" name="panneauAjoutComposant"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="97">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="98" name="graph1"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="100">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="101">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="102">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="103" name="graph2"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="105">    
+    <bendpoint x="1547" y="2164"/>    
+    <bendpoint x="1547" y="2454"/>    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="106" name="panCompo"/>      
+      <multiplicity id="107" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="108">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="109" name="panCompo"/>      
+      <multiplicity id="110" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="111">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="112" name="tPan"/>      
+      <multiplicity id="113" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="114">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="115" name="currentDay"/>      
+      <multiplicity id="116" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="117">    
+    <bendpoint x="1505" y="2454"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="118" name="panCompo"/>      
+      <multiplicity id="119" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="120">    
+    <bendpoint x="2424" y="882"/>    
+    <bendpoint x="2424" y="1730"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="121" name="graphData1"/>      
+      <multiplicity id="122" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="123">    
+    <bendpoint x="2508" y="882"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="124" name="caseTextGraph2"/>      
+      <multiplicity id="125" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="126">    
+    <bendpoint x="1593" y="882"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="127" name="PanneauConsoJourPrecedent"/>      
+      <multiplicity id="128" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="129">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="130" name="panSup"/>      
+      <multiplicity id="131" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="132">    
+    <bendpoint x="2445" y="882"/>    
+    <bendpoint x="2445" y="1730"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="133" name="graphData2"/>      
+      <multiplicity id="134" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="135">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <association id="136">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="137" name="consos"/>      
+      <multiplicity id="138" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

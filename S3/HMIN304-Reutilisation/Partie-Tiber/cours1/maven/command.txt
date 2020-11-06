@@ -1,0 +1,8 @@
+mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=com.mycompany.app -DartifactId=my-app -Dpackage=com.mycompany.app
+
+"mvn compile" cause des erreurs de build due à JDK 13 qui ne supporte pas maven version <7
+
+-> switch %java_home% from jdk-13 to jdk1.8
+
+sojustgame
+shindo0104

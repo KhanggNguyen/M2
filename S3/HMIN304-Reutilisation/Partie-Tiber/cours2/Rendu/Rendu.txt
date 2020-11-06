@@ -1,0 +1,6 @@
+Le fichier build.gradle.kts contient : 
+    - le type de projet 
+    - les dépendances installés comme junitet jre
+    - la classe main de l'application nommé "App.java"
+
+La classe principale se trouve dans le dossier app/src/main/java/fr/umontpellier/m2/mr/c1

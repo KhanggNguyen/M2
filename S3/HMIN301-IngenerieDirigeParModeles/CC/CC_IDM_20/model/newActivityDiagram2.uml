@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" name="modelProcess">
+  <packagedElement xsi:type="uml:Activity">
+    <edge xsi:type="uml:ControlFlow" name="Beginning-Begin" target="//@packagedElement.0/Begin" source="//@packagedElement.0/Beginning"/>
+    <edge xsi:type="uml:ControlFlow" name="Begin-1" target="//@packagedElement.0/1" source="//@packagedElement.0/Begin"/>
+    <edge xsi:type="uml:ControlFlow" name="1-2" target="//@packagedElement.0/2" source="//@packagedElement.0/1"/>
+    <edge xsi:type="uml:ControlFlow" name="2-3" target="//@packagedElement.0/3" source="//@packagedElement.0/2"/>
+    <edge xsi:type="uml:ControlFlow" name="3-4" target="//@packagedElement.0/4" source="//@packagedElement.0/3"/>
+    <edge xsi:type="uml:ControlFlow" name="4-5" target="//@packagedElement.0/5" source="//@packagedElement.0/4"/>
+    <edge xsi:type="uml:ControlFlow" name="5-6" target="//@packagedElement.0/6" source="//@packagedElement.0/5"/>
+    <edge xsi:type="uml:ControlFlow" name="6-End" target="//@packagedElement.0/End" source="//@packagedElement.0/6"/>
+    <edge xsi:type="uml:ControlFlow" name="End-End" target="//@packagedElement.0/End.1" source="//@packagedElement.0/End"/>
+    <ownedNode xsi:type="uml:OpaqueAction" name="Begin" incoming="//@packagedElement.0/Beginning-Begin" outgoing="//@packagedElement.0/Begin-1"/>
+    <ownedNode xsi:type="uml:OpaqueAction" name="1" incoming="//@packagedElement.0/Begin-1" outgoing="//@packagedElement.0/1-2"/>
+    <ownedNode xsi:type="uml:OpaqueAction" name="2" incoming="//@packagedElement.0/1-2" outgoing="//@packagedElement.0/2-3"/>
+    <ownedNode xsi:type="uml:OpaqueAction" name="3" incoming="//@packagedElement.0/2-3" outgoing="//@packagedElement.0/3-4"/>
+    <ownedNode xsi:type="uml:OpaqueAction" name="4" incoming="//@packagedElement.0/3-4" outgoing="//@packagedElement.0/4-5"/>
+    <ownedNode xsi:type="uml:OpaqueAction" name="5" incoming="//@packagedElement.0/4-5" outgoing="//@packagedElement.0/5-6"/>
+    <ownedNode xsi:type="uml:OpaqueAction" name="6" incoming="//@packagedElement.0/5-6" outgoing="//@packagedElement.0/6-End"/>
+    <ownedNode xsi:type="uml:OpaqueAction" name="End" incoming="//@packagedElement.0/6-End" outgoing="//@packagedElement.0/End-End"/>
+    <ownedNode xsi:type="uml:InitialNode" name="Beginning" outgoing="//@packagedElement.0/Beginning-Begin"/>
+    <ownedNode xsi:type="uml:ActivityFinalNode" name="End" incoming="//@packagedElement.0/End-End"/>
+  </packagedElement>
+</uml:Model>

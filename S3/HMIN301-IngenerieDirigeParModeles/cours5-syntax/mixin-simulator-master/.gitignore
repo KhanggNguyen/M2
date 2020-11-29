@@ -1,0 +1,6 @@
+target/*
+.*
+!.gitignore
+!.hgignore
+dependency-reduced-pom.xml
+/target/

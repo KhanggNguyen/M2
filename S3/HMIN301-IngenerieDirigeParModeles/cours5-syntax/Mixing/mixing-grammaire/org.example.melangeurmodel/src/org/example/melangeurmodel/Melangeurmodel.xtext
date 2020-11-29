@@ -1,0 +1,34 @@
+grammar org.example.melangeurmodel.Melangeurmodel with org.eclipse.xtext.common.Terminals
+
+generate melangeurmodel "http://www.example.org/melangeurmodel/Melangeurmodel"
+
+Model:
+	instruction+=Instruction*
+;
+	
+Instruction:
+	Move | Clean | Datatype
+;
+
+Move:
+	move = 'move' ('scan' 'if' type=('less'|'more'|'equal'|'diff') qtyCup=INT)? (qty=INT 'ml')? 'from' from=Cup 'to' to=Cup
+	('with' 'filter' filter=('A'|'B'))? ('wait' 'before' 'clean' time=INT)?
+;
+//exemple move 5ml from 1 to 6 with filter A
+
+
+Datatype:
+	'datatype' name=ID varname=Variable
+;
+
+Variable:
+	'variable' name=ID
+;
+
+Cup:
+	'cup' nr=INT
+;
+
+Clean:{Clean}
+	'cleanup'
+;

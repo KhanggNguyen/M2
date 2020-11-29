@@ -1,0 +1,5 @@
+ssh -y huu-khang.nguyen@etu.umontpellier.fr@x2go.umontpellier.fr
+
+sqlplus  e20150004923/1234567@oracle.etu.umontpellier.fr:1523/pmaster
+
+sqlldr userid=e20150004923/1234567@oracle.etu.umontpellier.fr:1523/pmaster control=Commune.ctl

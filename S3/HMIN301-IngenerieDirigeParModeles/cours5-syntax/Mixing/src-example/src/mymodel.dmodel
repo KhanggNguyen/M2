@@ -1,0 +1,13 @@
+datatype double variable i
+datatype double variable j
+
+move scan if diff 9 9ml from cup 1 to cup 6
+
+move scan if less 6 6ml from cup 2 to cup 7
+
+move 3ml from cup 6 to cup 9 with filter A 
+
+move 2ml from cup 7 to cup 9 with filter B wait before clean 8
+
+
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<processus:Process
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:processus="http://www.example.org/processus"
+    xsi:schemaLocation="http://www.example.org/processus processus.ecore"
+    currentActivity="//@activities.2">
+  <activities
+      nom="Beginning"
+      next="//@activities.2"/>
+  <activities
+      nom="End"
+      previous="//@activities.4"/>
+  <activities
+      nom="1"
+      previous="//@activities.0"
+      next="//@activities.3"/>
+  <activities
+      nom="2"
+      previous="//@activities.2"
+      next="//@activities.4"/>
+  <activities
+      nom="3"
+      previous="//@activities.3"
+      next="//@activities.1"/>
+  <end referencedActivity="//@activities.1"/>
+  <beginning
+      referencedActivity="//@activities.0"/>
+</processus:Process>

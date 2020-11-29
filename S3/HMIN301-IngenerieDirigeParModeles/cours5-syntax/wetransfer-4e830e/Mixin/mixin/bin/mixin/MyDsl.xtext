@@ -1,0 +1,22 @@
+grammar mixin.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.MyDsl.mixin"
+
+Model:
+	instruction+=Instruction*;
+	
+Instruction:
+	Move | Clean;
+	
+Move:
+	'move' qty=INT 'ml' 'from' from=Cup 'to' to=Cup
+	('with' 'filter' filter=('A'|'B'))?
+;
+
+Cup:
+	'cup' nr=INT
+;
+
+Clean:{Clean}
+	'cleanup'
+;

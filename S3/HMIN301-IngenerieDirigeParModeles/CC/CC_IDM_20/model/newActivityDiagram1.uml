@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" name="modelProcess">
+  <packagedElement xsi:type="uml:Activity">
+    <edge xsi:type="uml:ControlFlow" name="Beginning-Begin" target="//@packagedElement.0/Begin" source="//@packagedElement.0/Beginning"/>
+    <edge xsi:type="uml:ControlFlow" name="Begin-1111" target="//@packagedElement.0/1111" source="//@packagedElement.0/Begin"/>
+    <edge xsi:type="uml:ControlFlow" name="1111-2222" target="//@packagedElement.0/2222" source="//@packagedElement.0/1111"/>
+    <edge xsi:type="uml:ControlFlow" name="2222-End" target="//@packagedElement.0/End" source="//@packagedElement.0/2222"/>
+    <edge xsi:type="uml:ControlFlow" name="End-End" target="//@packagedElement.0/End.1" source="//@packagedElement.0/End"/>
+    <ownedNode xsi:type="uml:OpaqueAction" name="Begin" incoming="//@packagedElement.0/Beginning-Begin" outgoing="//@packagedElement.0/Begin-1111"/>
+    <ownedNode xsi:type="uml:OpaqueAction" name="1111" incoming="//@packagedElement.0/Begin-1111" outgoing="//@packagedElement.0/1111-2222"/>
+    <ownedNode xsi:type="uml:OpaqueAction" name="2222" incoming="//@packagedElement.0/1111-2222" outgoing="//@packagedElement.0/2222-End"/>
+    <ownedNode xsi:type="uml:OpaqueAction" name="End" incoming="//@packagedElement.0/2222-End" outgoing="//@packagedElement.0/End-End"/>
+    <ownedNode xsi:type="uml:InitialNode" name="Beginning" outgoing="//@packagedElement.0/Beginning-Begin"/>
+    <ownedNode xsi:type="uml:ActivityFinalNode" name="End" incoming="//@packagedElement.0/End-End"/>
+  </packagedElement>
+</uml:Model>

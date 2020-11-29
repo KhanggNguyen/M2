@@ -161,19 +161,51 @@ END;
 
 CREATE OR REPLACE FUNCTION TableDataXML(
     nomTable IN VARCHAR,
-    nomCondition IN VARCHAR,
-    valueCondition IN VARCHAR
+    condition IN VARCHAR DEFAULT ''
 ) 
 RETURN CLOB
 IS
-    res CLOB;
+    v_ctx   DBMS_XMLGEN.ctxhandle;
+    v_res CLOB;
 BEGIN 
+    v_ctx := DBMS_XMLGEN.NEWCONTEXT('SELECT * FROM '||upper(nomTable)||' WHERE '||condition);
+
+    v_res := DBMS_XMLGEN.GETXML(v_ctx);
+    DBMS_XMLGEN.closecontext(v_ctx);
     
-    res := DBMS_XMLGEN.GETXML
-        (DBMS_XMLGEN.NEWCONTEXT
-            ('SELECT * FROM ' . nomTable . ' WHERE ' nomCondition . '=' . valueCondition ';')
-        )
-    
-    return res;
+    RETURN v_res;
+
+    EXCEPTION
+        WHEN NO_DATA_FOUND THEN DBMS_OUTPUT.PUT_LINE('Pas de données');
+        WHEN OTHERS THEN DBMS_OUTPUT.PUT_LINE('Un problème est survenue.');
 END;
 /
+
+--SELECT TableDataXML('POPULATION') FROM dual; 
+
+/*-------------3-------------*/
+
+CREATE OR REPLACE PROCEDURE factory_population
+IS
+    CURSOR c_pop 
+    IS
+        SELECT POPULATION.CODEINSEE, NOMCOMMAJ, VAL_POPULATION
+        FROM POPULATION, COMMUNE 
+        WHERE ANNEE = '2000' OR ANNEE = '2010' 
+            AND POPULATION.CODEINSEE = COMMUNE.CODEINSEE;
+BEGIN
+    FOR v_pop IN c_pop
+    LOOP
+        DBMS_OUTPUT.PUT_LINE(v_pop.CODEINSEE||chr(9)||v_pop.NOMCOMMAJ||chr(9)||v_pop.VAL_POPULATION||chr(13));
+    END LOOP;
+
+    EXCEPTION
+        WHEN NO_DATA_FOUND THEN DBMS_OUTPUT.PUT_LINE('Pas de données');
+        WHEN OTHERS THEN DBMS_OUTPUT.PUT_LINE('Un problème est survenue.');
+END;
+/
+spool on
+spool file_pop
+set serveroutput on
+execute factory_population;
+spool off

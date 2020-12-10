@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maquette:Formations xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:maquette="fs://maquette">
+  <formations nom="Master 1 Informatique" nbSemestres="2">
+    <semestres numero="1" ues="//@formations.0/@uesPotentielles.1 //@formations.0/@uesPotentielles.0 //@formations.0/@uesPotentielles.2 //@formations.0/@uesPotentielles.3 //@formations.0/@uesPotentielles.4 //@formations.0/@uesPotentielles.5"/>
+    <semestres numero="2" ues="//@formations.0/@uesPotentielles.11 //@formations.0/@uesPotentielles.10 //@formations.0/@uesPotentielles.8 //@formations.0/@uesPotentielles.9 //@formations.0/@uesPotentielles.7 //@formations.0/@uesPotentielles.6"/>
+    <compétencesEnseignées nom="Réseau" ues="//@formations.0/@uesPotentielles.0"/>
+    <compétencesEnseignées nom="Symfony" ues="//@formations.0/@uesPotentielles.1"/>
+    <compétencesEnseignées nom="Angular" ues="//@formations.0/@uesPotentielles.1"/>
+    <compétencesEnseignées nom="C" ues="//@formations.0/@uesPotentielles.0"/>
+    <compétencesEnseignées nom="Socket" ues="//@formations.0/@uesPotentielles.0"/>
+    <compétencesEnseignées nom="Anglais" ues="//@formations.0/@uesPotentielles.2"/>
+    <compétencesEnseignées nom="Antlr" ues="//@formations.0/@uesPotentielles.3"/>
+    <compétencesEnseignées nom="Lisp" ues="//@formations.0/@uesPotentielles.3"/>
+    <compétencesEnseignées nom="C#" ues="//@formations.0/@uesPotentielles.4 //@formations.0/@uesPotentielles.11"/>
+    <compétencesEnseignées nom="Pattern" ues="//@formations.0/@uesPotentielles.4"/>
+    <compétencesEnseignées nom="Dév agents" ues="//@formations.0/@uesPotentielles.5"/>
+    <compétencesEnseignées nom="Gestion du projet" ues="//@formations.0/@uesPotentielles.6 //@formations.0/@uesPotentielles.8"/>
+    <compétencesEnseignées nom="Jupyter" ues="//@formations.0/@uesPotentielles.9"/>
+    <compétencesEnseignées nom="Projet Libre" ues="//@formations.0/@uesPotentielles.8"/>
+    <compétencesEnseignées nom="Android" ues="//@formations.0/@uesPotentielles.10"/>
+    <compétencesEnseignées nom="RMI" ues="//@formations.0/@uesPotentielles.11"/>
+    <compétencesEnseignées nom="Sans UE associé" description="Pour tester les reglèes"/>
+    <uesPotentielles nom="Réseau" nbECTS="5" compétence="//@formations.0/@compétencesEnseignées.0 //@formations.0/@compétencesEnseignées.3 //@formations.0/@compétencesEnseignées.4"/>
+    <uesPotentielles nom="Donnees du web" nbECTS="5" compétence="//@formations.0/@compétencesEnseignées.1 //@formations.0/@compétencesEnseignées.2" disciplinaire="false"/>
+    <uesPotentielles nom="Anglais" nbECTS="2" compétence="//@formations.0/@compétencesEnseignées.5"/>
+    <uesPotentielles nom="Compil" nbECTS="5" compétence="//@formations.0/@compétencesEnseignées.6 //@formations.0/@compétencesEnseignées.7"/>
+    <uesPotentielles nom="Ingenierie Logicielle" nbECTS="5" compétence="//@formations.0/@compétencesEnseignées.8 //@formations.0/@compétencesEnseignées.9"/>
+    <uesPotentielles nom="Programmation Agents" nbECTS="3" compétence="//@formations.0/@compétencesEnseignées.10" disciplinaire="false"/>
+    <uesPotentielles nom="TER" nbECTS="5" compétence="//@formations.0/@compétencesEnseignées.11"/>
+    <uesPotentielles nom="TALN" nbECTS="3"/>
+    <uesPotentielles nom="Conduite de projet" nbECTS="2" compétence="//@formations.0/@compétencesEnseignées.13 //@formations.0/@compétencesEnseignées.11" disciplinaire="false"/>
+    <uesPotentielles nom="Science de données" nbECTS="5" compétence="//@formations.0/@compétencesEnseignées.12" disciplinaire="false"/>
+    <uesPotentielles nom="Dev Mobile" nbECTS="5" compétence="//@formations.0/@compétencesEnseignées.14"/>
+    <uesPotentielles nom="Architecture Logicielles Distribuées" nbECTS="5" compétence="//@formations.0/@compétencesEnseignées.8 //@formations.0/@compétencesEnseignées.15"/>
+  </formations>
+  <formations nom="Licence 3 Informatique" nbSemestres="2">
+    <semestres numero="1" ues="//@formations.1/@uesPotentielles.6 //@formations.1/@uesPotentielles.8 //@formations.1/@uesPotentielles.7 //@formations.1/@uesPotentielles.9 //@formations.1/@uesPotentielles.11 //@formations.1/@uesPotentielles.10"/>
+    <semestres numero="2" ues="//@formations.1/@uesPotentielles.3 //@formations.1/@uesPotentielles.2 //@formations.1/@uesPotentielles.4 //@formations.1/@uesPotentielles.5 //@formations.1/@uesPotentielles.1 //@formations.1/@uesPotentielles.0"/>
+    <compétencesEnseignées nom="Gestion du projet" ues="//@formations.1/@uesPotentielles.0"/>
+    <compétencesEnseignées nom="Sockets" ues="//@formations.1/@uesPotentielles.4"/>
+    <compétencesEnseignées nom="Calcul complexité " ues="//@formations.1/@uesPotentielles.5"/>
+    <compétencesEnseignées nom="Wordpress"/>
+    <uesPotentielles nom="TER L3" nbECTS="5" compétence="//@formations.1/@compétencesEnseignées.0"/>
+    <uesPotentielles nom="Logique 2" nbECTS="5"/>
+    <uesPotentielles nom="Objet avancés" nbECTS="5"/>
+    <uesPotentielles nom="Algo du texte" nbECTS="5"/>
+    <uesPotentielles nom="Réseaux" nbECTS="5" compétence="//@formations.1/@compétencesEnseignées.1"/>
+    <uesPotentielles nom="Complexité" nbECTS="5" compétence="//@formations.1/@compétencesEnseignées.2"/>
+    <uesPotentielles nom="Algo de graphes" nbECTS="5"/>
+    <uesPotentielles nom="Langages formels" nbECTS="5"/>
+    <uesPotentielles nom="Concepts &amp; Prog système" nbECTS="5"/>
+    <uesPotentielles nom="Prog objet" nbECTS="5"/>
+    <uesPotentielles nom="Architecture Web" nbECTS="5"/>
+    <uesPotentielles nom="Sys BDD" nbECTS="5"/>
+  </formations>
+  <formations nom="Imaginaire" nbSemestres="-1">
+    <semestres numero="1"/>
+    <compétencesEnseignées nom="3"/>
+    <compétencesEnseignées nom="2"/>
+    <compétencesEnseignées nom="1"/>
+    <uesPotentielles nom="1" nbECTS="5"/>
+    <uesPotentielles nom="2" nbECTS="5"/>
+    <uesPotentielles nom="3" nbECTS="5" disciplinaire="false"/>
+  </formations>
+</maquette:Formations>

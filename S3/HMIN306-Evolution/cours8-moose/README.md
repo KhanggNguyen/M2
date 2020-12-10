@@ -1,10 +1,10 @@
 # HMIN306 Evolution 2020 - 2021
 ## Rapport de TP Moose 
-**Participants :**
+**Binôme :**
 
-NGUYEN Huu Khang
+NGUYEN Huu Khang (21506865)
 
-TRAN Thi Tra My
+TRAN Thi Tra My (21511002)
 
 **S'échauffer**
 

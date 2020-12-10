@@ -204,6 +204,7 @@ BEGIN
         WHEN OTHERS THEN DBMS_OUTPUT.PUT_LINE('Un problème est survenue.');
 END;
 /
+
 spool on
 spool file_pop
 set serveroutput on

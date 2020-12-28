@@ -1,0 +1,13 @@
+<World>
+	<constant name="HOMER" domain="person"></constant>
+	<constant name="BOB" domain="person"></constant>
+	<constant name="CAT" domain="person"></constant>
+	<constant name="JAMES" domain="person"></constant>
+
+
+
+
+	<function name = "P" args = "2" domain = "testing"></function>
+	
+
+</World>

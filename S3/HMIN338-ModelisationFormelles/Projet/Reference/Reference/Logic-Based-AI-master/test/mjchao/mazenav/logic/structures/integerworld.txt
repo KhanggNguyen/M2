@@ -1,0 +1,15 @@
+#Definition file for "Integer World," a world with some functions
+#and relations on integers
+
+#Returns the sum of two integers
+FUNCTION: SumInt
+
+#Returns the difference of two integers
+FUNCTION: DiffInt
+
+#Returns if the first integer is greater
+#than the second integer
+FUNCTION: GreaterThan
+
+#Some example constants
+CONSTANT: One, Two, Three, Four, Five

@@ -1,0 +1,1 @@
+(Forall x (Or (forall x (P x)) (forall x (P x))))

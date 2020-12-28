@@ -1,0 +1,28 @@
+<root>
+<Domain name = "Social">
+	<question text= "Everyone who is friends with Homer, drinks with Homer"
+		correctExpression = "∀x FriendsWith [x,HOMER] ∧ DrinksWtih[x, HOMER] "> </question>
+	<question text= "Everyone is friends with Homer." 
+		correctExpression = "∀x FriendsWith [x,HOMER]"></question>
+		
+	<constant name="HOMER"></constant>
+	<constant name="BOB"></constant>
+	<constant name="JAMES"></constant>
+
+	<function name = "FriendsWith" args = "2"></function>
+	<function name = "DrinksWtih" args = "2"></function>
+</Domain>
+
+<Domain name = "School">
+	<question text= "Everyone who is a CSE Major studies with each other"
+		correctExpression = "BKARG"> </question>
+		
+	<constant name="DOUG"></constant>
+	<constant name="DAN"></constant>
+	<constant name="TYLER"></constant>
+	<constant name="CONNOR"></constant>
+
+	<function name = "CSEMajor" args = "1"></function>
+	<function name = "StudiesWith" args = "2"></function>
+</Domain>
+</root>
